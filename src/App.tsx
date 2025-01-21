@@ -19,7 +19,7 @@ function App() {
         className="fixed top-0 left-0 right-0 z-50 bg-dark-100/80 backdrop-blur-lg border-b border-gray-800/50"
       >
         <nav className="max-w-7xl mx-auto px-4 flex items-center justify-between">
-          <img src="/src/assets/logo.png" alt="Pump Logo" className="h-24" />
+          <img src="/logo.png" alt="Pump Logo" className="h-24" />
           <div className="flex items-center gap-6">
             <button
               onClick={() => scrollToSection("features")}
@@ -47,7 +47,7 @@ function App() {
       <section className="relative min-h-[120vh] flex items-start justify-center pt-32">
         {/* Background image with overlay */}
         <div
-          className="absolute inset-0 bg-[url('/src/assets/hero.png')] bg-cover"
+          className="absolute inset-0 bg-[url('/hero.png')] bg-cover"
           style={{
             backgroundPosition: "center top",
             transform: "scale(1.1)",
@@ -62,7 +62,7 @@ function App() {
           className="relative text-center px-4 max-w-3xl mx-auto"
         >
           <motion.img
-            src="/src/assets/logo.png"
+            src="/logo.png"
             alt="Pump Logo"
             className="w-40 h-40 mx-auto mb-4"
             initial={{ scale: 0.8 }}
@@ -305,11 +305,7 @@ function App() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
-              <img
-                src="/src/assets/logo.png"
-                alt="Pump Logo"
-                className="w-24 h-24 mb-4"
-              />
+              <img src="/logo.png" alt="Pump Logo" className="w-24 h-24 mb-4" />
               <p className="text-gray-400">
                 Transform your fitness journey with the power of community.
               </p>
