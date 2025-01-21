@@ -19,7 +19,7 @@ function App() {
         className="fixed top-0 left-0 right-0 z-50 bg-dark-100/80 backdrop-blur-lg border-b border-gray-800/50"
       >
         <nav className="max-w-7xl mx-auto px-4 flex items-center justify-between">
-          <img src="/pump-website/logo.png" alt="Pump Logo" className="h-24" />
+          <img src="/pumpsite/logo.png" alt="Pump Logo" className="h-24" />
           <div className="flex items-center gap-6">
             <button
               onClick={() => scrollToSection("features")}
@@ -62,7 +62,7 @@ function App() {
           className="relative text-center px-4 max-w-3xl mx-auto"
         >
           <motion.img
-            src="/pump-website/logo.png"
+            src="/pumpsite/logo.png"
             alt="Pump Logo"
             className="w-40 h-40 mx-auto mb-4"
             initial={{ scale: 0.8 }}
@@ -306,7 +306,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
               <img
-                src="/pump-website/logo.png"
+                src="/pumpsite/logo.png"
                 alt="Pump Logo"
                 className="w-24 h-24 mb-4"
               />
