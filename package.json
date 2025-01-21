@@ -2,6 +2,7 @@
   "name": "app-landing-page",
   "private": true,
   "type": "module",
+  "homepage": "https://ericex134.github.io/pumpsite/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
