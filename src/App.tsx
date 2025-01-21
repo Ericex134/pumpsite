@@ -136,7 +136,7 @@ function App() {
               <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-xl opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <img
-                  src="/src/assets/pump2.png"
+                  src="/pumpsite/pump2.png"
                   alt="Social Feed Preview"
                   className="rounded-xl shadow-2xl transform group-hover:scale-[1.02] transition-transform duration-300"
                 />
@@ -156,7 +156,7 @@ function App() {
               <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-xl opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <img
-                  src="/src/assets/pump1.png"
+                  src="/pumpsite/pump1.png"
                   alt="Workout Tracking Preview"
                   className="rounded-xl shadow-2xl transform group-hover:scale-[1.02] transition-transform duration-300"
                 />
@@ -216,7 +216,7 @@ function App() {
               <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-xl opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <img
-                  src="/src/assets/pump3.png"
+                  src="/pumpsite/pump3.png"
                   alt="Community Features Preview"
                   className="rounded-xl shadow-2xl transform group-hover:scale-[1.02] transition-transform duration-300"
                 />
