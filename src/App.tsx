@@ -47,7 +47,7 @@ function App() {
       <section className="relative min-h-[120vh] flex items-start justify-center pt-32">
         {/* Background image with overlay */}
         <div
-          className="absolute inset-0 bg-[url('/pump-website/hero.png')] bg-cover"
+          className="absolute inset-0 bg-[url('/pumpsite/hero.png')] bg-cover"
           style={{
             backgroundPosition: "center top",
             transform: "scale(1.1)",
